@@ -1,0 +1,6 @@
+node_modules/
+.env
+.aisnet_session.json
+AGENTS.md
+.DS_Store
+Thumbs.db

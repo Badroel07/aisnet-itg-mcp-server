@@ -1,0 +1,31 @@
+{
+  "name": "aisnet-itg-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) Server for AISNet ITG (Institut Teknologi Garut Academic Information System)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "aisnet-itg-mcp": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Badroel07/aisnet-itg-mcp-server.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "aisnet",
+    "itg",
+    "siakad",
+    "akademik"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "dotenv": "^18.0.10",
+    "zod": "^3.24.2"
+  }
+}
